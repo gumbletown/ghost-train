@@ -1,0 +1,126 @@
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #;
+}
+
+.header {
+  height: 80px;
+}
+
+.header img {
+  padding-top: 10px;
+  padding-bottom: 12px;
+}
+
+#header-logo {
+    display: block;
+    margin: 0 auto;
+}
+
+.hamburger{
+  background:none;
+  position:absolute;
+  top:0;
+  right:0;
+  line-height:45px;
+  padding:15px 15px 0px 15px;
+  color:#0C0C0C;
+  border:0;
+  font-size:2.6em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.cross{
+  background:none;
+  position:absolute;
+  top:0px;
+  right:0;
+  padding:7px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#ffffff;  position:absolute; text-align:center; font-size:12px;}
+.menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+.menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.menu li:hover{display: block;    background:#f1f1f1; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.menu ul li a { text-decoration:none;  margin: 0px; color:#666;}
+.menu ul li a:hover {  color: #666; text-decoration:none;}
+.menu a{text-decoration:none; color:#666;}
+.menu a:hover{text-decoration:none; color:#666;}
+
+
+#contact-main {
+  height: 380px;
+  margin: 80px 0;
+
+}
+#contactDet  {
+  height: 380px;
+
+}
+
+#contactDet h3 {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 900;
+  padding-bottom: 10px;
+
+}
+
+#contactDet p {
+  font-size: 14px;
+  padding: 10px 0 20px 0;
+  column-count: 2;
+  color: #30415D;
+  line-height: 1.4;
+}
+
+#contactImg {
+  background-image: url("../images/ghost-train-entrance.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 380px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+#contactImg .blk-logo{
+
+}
+
+span.details {
+  padding: 20px;
+}
+
+.padding-0 {
+    padding-right:40px;
+    padding-left:-15px;
+    text-align: left;
+}
+
+.foot-strip h6 {
+  font-size: 10px;
+  text-transform: capitalize;
+}
+
+.foot-strip {
+  display: block;
+  height: 70px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  background-color: #031424;
+  color: #FBF1EF;
+  text-transform: uppercase;
+}

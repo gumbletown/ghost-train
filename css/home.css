@@ -1,0 +1,217 @@
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top; 
+
+}
+
+.header {
+	
+	height: 80px;
+
+}
+
+.header img {
+
+	padding-top: 10px;
+	padding-bottom: 12px;
+
+}
+
+.hamburger{
+  background:none;
+  position:absolute;
+  top:0;
+  right:0;
+  line-height:45px;
+  padding:15px 15px 0px 15px;
+  color:#0C0C0C;
+  border:0;
+  font-size:1.6em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.cross{
+  background:none;
+  position:absolute;
+  top:0px;
+  right:0;
+  padding:7px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#ffffff;  position:absolute; text-align:center; font-size:12px;}
+.menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+.menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.menu li:hover{display: block;    background:#f1f1f1; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.menu ul li a { text-decoration:none;  margin: 0px; color:#666;}
+.menu ul li a:hover {  color: #666; text-decoration:none;}
+.menu a{text-decoration:none; color:#666;}
+.menu a:hover{text-decoration:none; color:#666;}
+
+/* .main {
+  background-image: url("../images/underwater-figure1.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 450px;
+}
+*/
+
+h1 {
+  font-size: 3rem;
+}
+.gt-explainer {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.carousel-caption {
+  padding-bottom: 200px;
+  
+}
+
+.padding-0 {
+    padding-right:0;
+    padding-left:0;
+}
+
+
+.journeyTile {
+  background-image: url("../images/hpTile1.jpg");
+  min-height:300px;
+  background-size: 100%;
+  max-width: 100%;
+  position: relative;
+  transition: 1s;
+  background-position: center;
+}
+
+.journeyTile:hover {
+  background-size: 120%;
+}
+
+.journeyTile:after {
+    content: "The Journey";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,77,157,0.3);
+    padding-top: 100px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    opacity:0;
+    transition:1s;
+}
+
+.journeyTile:hover:after {
+  opacity:1;
+}
+
+.creativeTile {
+  background-image: url("../images/hpTile2c.jpg");
+  min-height:300px;
+  background-size: 100%;
+  max-width: 100%;
+  position: relative;
+  transition: 1s;
+  background-position: center;
+}
+
+.creativeTile:hover {
+  background-size: 120%;
+}
+
+.creativeTile:after {
+    content: "The Creative Team";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,77,157,0.3);
+    padding-top: 100px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    opacity:0;
+    transition:1s;
+}
+
+.creativeTile:hover:after {
+  opacity:1;
+}
+
+
+
+.contactTile {
+  background-image: url("../images/hpTile3.jpeg");
+  min-height:300px;
+  background-size: 100%;
+  max-width: 100%;
+  position: relative;
+  transition: 1s;
+  background-position: center;
+}
+
+.contactTile:hover {
+  background-size: 120%;
+}
+
+.contactTile:after {
+    content: "Contact us";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,77,157,0.3);
+    padding-top: 100px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    opacity:0;
+    transition:1s;
+}
+
+.contactTile:hover:after {
+  opacity:1;
+}
+
+.foot-strip h6 {
+  font-size: 10px;
+  text-transform: capitalize;
+}
+
+.foot-strip {
+  display: block;
+  height: 70px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  background-color: #031424;
+  color: #FBF1EF;
+  text-transform: uppercase;
+}
